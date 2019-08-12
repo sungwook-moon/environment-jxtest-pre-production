@@ -1,0 +1,10 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jxtest-pre-production
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jxtest-pre-production
+  - name: CHART_REPOSITORY
+    value: http://chartmuseum.jxtest.35.224.245.250.nip.io
+  pipelines: {}
